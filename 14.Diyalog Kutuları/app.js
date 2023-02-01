@@ -1,6 +1,6 @@
 /* 
     -----------------DİYALOG KUTULARI-------------
-    -Alert :Uyarı için kullanılır
+    -Aılert :Uyarı için kullanılr
     -Prompt : değer almamıza yardımcı olur
     -Confirm : onaylama
 

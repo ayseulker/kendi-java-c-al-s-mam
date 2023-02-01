@@ -8,8 +8,8 @@
    -           -         -
     -          -        -
      -         -       -
-      -        -     - 
-       -       -    -
+      -        -      - 
+       -       -     -
     1. yol  2. yol  3.yol
 
 */
@@ -26,7 +26,7 @@ else if (secilenYol == 3) {
     alert("Seçilen yol" + " .yoldur.")
 }
 else {
-    alert("Lütdfen geçerli bir yol seçiniz !!")
+    alert("Lütfen geçerli bir yol seçiniz !!")
 }
 
 
@@ -53,7 +53,7 @@ let tckn = prompt("TCKN giriniz :");
 //kontrolEt(ad,tckn);
 
 //if else: iki seceneğin olduğu yerlerde kullanılır
-// if else is else : 2 den fazla seçeneğin olduğu yerde kullanılır.
+// else if else if: 2 den fazla seçeneğin olduğu yerde kullanılır.
 //if if if : birbirinden bağımsız durumlar olduğunda kullanılır
 
 
