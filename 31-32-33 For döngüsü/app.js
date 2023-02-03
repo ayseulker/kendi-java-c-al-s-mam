@@ -32,15 +32,15 @@ for (let i =1 ; i<=10 ; i+=2){
 
 
 /*
-    for(let i = 0; i<=10; i++ ){
+for(let i = 0; i<=10; i++ ){
     if(i%2==0){
-        console.log(Naber)
+        console.log("Naber");
     }else{
-        console.log(Ayse)
+        console.log("Ayse");
     }
 }
-*/
 
+*/
 
 
 // 50 den 1'e kadar gidelim toplamlarını bulalım
@@ -49,7 +49,7 @@ let toplam = 0;
 for(let i=50 ; i>=1 ; i--){
     toplam+=i;
     console.log(i);
-    //! console.log("Toplam :", toplam); - burada olduğunda her sayıdan sonra toplamı yazdırır konsola
+    //console.log("Toplam :", toplam);  // - burada olduğunda her sayıdan sonra toplamı yazdırır konsola
 }
 
 

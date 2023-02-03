@@ -6,7 +6,7 @@
         //kodlar
     }
 
-    for(let = 1 ; i<= 10 ; i++){
+    for(let i = 1 ; i<= 10 ; i++){
         console.log(i);  // Bu for döngüsü i 10 gelene kadar çalışır koşul 10 eşit veya küçük olduğu için
     }
 

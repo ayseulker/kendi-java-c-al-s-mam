@@ -39,6 +39,7 @@ do{
 
 //! 1-20 arasındaki tek sayıları toplama
 
+/*
 let sayac =1 ;
 let toplam = 0;
 
@@ -49,4 +50,4 @@ do{
     sayac++;
 }while(sayac<=20);
 
-console.log("Toplam: ", toplam)
+console.log("Toplam: ", toplam)*/

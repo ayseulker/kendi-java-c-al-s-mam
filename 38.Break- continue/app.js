@@ -1,6 +1,6 @@
 //break - continue
 
-// 1-den 10' a kadar  satyıları yazdıralım 8'e geldiğimizde döngüden çıkalım
+// 1-den 10' a kadar  sayıları yazdıralım 8'e geldiğimizde döngüden çıkalım
 
 /*
 let sayac =  1 ;

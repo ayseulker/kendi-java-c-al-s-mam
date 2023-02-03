@@ -10,38 +10,39 @@
 
 
 /*
-let sayac = 1;
+let i = 1;
 
-while (sayac <= 10) {
+while (i <= 10) {
     
-    console.log(sayac);
+    console.log(i);
     
-    sayac++;
+    i++;
 }
 */
 
 
 //? 1' den 10 ' a kadar tekleri çifttleri yazdırma
 
-/* ÇİFTLER İÇİN
-let sayac = 0;
+//ÇİFTLER İÇİN
 
-/*
-while ( sayac<=10 ) {
-    console.log(sayac) ;
+/*let i= 0;
 
-    sayac += 2 ;
 
-}  Veya 
+// while ( i<=10 ) {
+//     console.log(i) ;
 
-while (sayac<=10){
+//     i += 2 ; 
 
-    for(sayac%2==0){
-        console.log(sayac)
+// } Veya 
+
+while (i<=10){
+    if(i%2==0){
+        console.log(i);
     }
-    sayac++;
+    i++; 
 }
 */
+
 
 /* TEKLERİ YAZDIRMA
 let sayac = 1;
@@ -49,7 +50,7 @@ let sayac = 1;
 while ( sayac<=10 ) {
     console.log(sayac) ;
 
-    sayac += 2 ;
+    sayac += 2 ;  sayac = sayac + 2
 
 }  Veya 
 
@@ -57,7 +58,7 @@ let sayac = 0;
 
 while (sayac<=10){
 
-    for(sayac%2==1){
+    if(sayac%2==1){
         console.log(sayac)
     }
     sayac++;
@@ -66,10 +67,11 @@ while (sayac<=10){
 */
 
 // consolda 7 ' ye kadar yazmasına yardımcı olur.
+
 let sayac = 1
 while(true){
     console.log(sayac);
-    if(sayac==7){
+    if(sayac==9){
         break;
     }
 
