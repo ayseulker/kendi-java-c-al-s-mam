@@ -23,7 +23,7 @@ console.log(sonuc); //  consolda Modern Web Geliştirme Kursu 2022 Enes çıktı
 
 /*
 let kurs = "Modern Web Geliştirme Kursu"
-let index = kurs.indexOf("o");
+let index = kurs.indexOf("i");
 console.log(index); // consolda 1 çıktısı alınır
 
 */
@@ -78,12 +78,12 @@ console.log(kurs.slice(7,10)); //? 7. indexten 10. indexe kadar (10 dahil değil
 
 */
 
-//! subsstring() - belirli indexleri almamıza yardımcı olur.
+//! substring() - belirli indexleri almamıza yardımcı olur.
 
 /*
 let kurs = "Modern Web Geliştirme Kursu"
 console.log(kurs); // consolda Modern Web Geliştirme Kursu  çıktısı alınır
-console.log(kurs.substring(0,6));//? 0. indexten 6. indexe kadar (6 dahil değil) böl demek oıluyor 
+console.log(kurs.substring(0,6));//? 0. indexten 6. indexe kadar (6 dahil değil) böl demek oluyor 
 .// consolda Modern çıktısı alınır.
 
 */
@@ -112,7 +112,7 @@ console.log(dizi1); // consolda  "Modern" , Web" , "Geliştirme" , "Kursu" şekl
 
 */
 
-//! valueOf() - primiti tipe çeviriyor - bir dahaki ders anlatacak
+//! valueOf() - primitive-(ilkel veri tipi demek ) tipe çeviriyor - bir dahaki ders anlatacak
 
 /*
 let kurs = "Modern Web Geliştirme Kursu"
@@ -122,7 +122,7 @@ console.log(kurs.valueOf()); // consolda Modern Web Geliştirme Kursu  çıktıs
 
 //! startSwith() - Yazılan ifadenin hangi karakterle başladığını sorduğumuzda true-false olarak sonuç döner.
 
-/*
+
 let kurs = "Modern Web Geliştirme Kursu"
 console.log(kurs); // consolda Modern Web Geliştirme Kursu  çıktısı alınır.
 console.log(kurs.startsWith("M")); // consolda  true çıktısı alınır.
@@ -132,18 +132,18 @@ if(kurs.startsWith("M")){
     console.log("M harfi le başlamatadır.") ; // consolda true olması durumunda bu şekilde çıktı alınır.
 }
 
-*/
+
 
 //! endsWith() -Yazılan ifadenin hangi karakterle bittiğini sorduğumuzda true-false olarak sonuç döner.
 
-let kurs = "Modern Web Geliştirme Kursu"
-console.log(kurs); // consolda Modern Web Geliştirme Kursu  çıktısı alınır.
-console.log(kurs.endsWith("u")); // consolda  true çıktısı alınır.
-console.log(kurs.endsWith("U")); // consolda false çıktısı alınır.
+// let kurs = "Modern Web Geliştirme Kursu"
+// console.log(kurs); // consolda Modern Web Geliştirme Kursu  çıktısı alınır.
+// console.log(kurs.endsWith("u")); // consolda  true çıktısı alınır.
+// console.log(kurs.endsWith("U")); // consolda false çıktısı alınır.
 
-if(kurs.endsWith("u")){
-    console.log("u harfi ile bitmektedir.") ; // consolda true olması durumunda bu şekilde çıktı alınır.
-}
+// if(kurs.endsWith("u")){
+//     console.log("u harfi ile bitmektedir.") ; // consolda true olması durumunda bu şekilde çıktı alınır.
+// }
 
 
 

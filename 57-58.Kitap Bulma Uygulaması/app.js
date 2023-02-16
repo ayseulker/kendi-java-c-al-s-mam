@@ -45,7 +45,7 @@ let raflar = [
     [raf41,raf42,raf43,raf44,raf45],
     [raf31,raf32,raf33,raf34,raf35],
     [raf21,raf22,raf23,raf24,raf25],
-    [raf11,raf12,raf13,raf14,raf15]
+    [raf11,raf12,raf13,raf14,raf15],
 ];
 
 //diziler iç içe olduğu için 2 for döngüsü oluşturuyoruz
@@ -76,6 +76,7 @@ let raflar = [
         });
         return rafKod;
     }
+    //toUpperCase diyerek yazıları büyük harfe çeviriyoruz-includesda parantez içerisinde sona sıfır eklememizin sebebide 0. indexten itibaren kontrol et demek oluyor.
 
     //! Bir metodun nerede yazıldığının önemi yok nereden çağrıldığının önemi var.
     // For döngüsü içerisinde tanımlanmış değişkenler sadece kıvırcıklar içeriisnde sonuç alınır.
