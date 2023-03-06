@@ -36,7 +36,7 @@ console.log("b :" + b); // consolda b:10
 
 /*
 let dizi1 = [1,2,3];
-let dizi2 = dizi1; // bu şekilde tyazarak aynı referansa ulaşılır.
+let dizi2 = dizi1; // bu şekilde yazarak aynı referansa ulaşılır.
 let dizi3 = [1,2,3];
 
 console.log(dizi1); // 1, 2, 3

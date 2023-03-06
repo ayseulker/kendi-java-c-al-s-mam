@@ -52,11 +52,11 @@ if(true){
 
 
 //const (constrant) : sabit , değişmez
-
+/*
 const a = 5;
 a = 15;
 console.log(a);  //consolda hata veriri ortaya bir değer çıkmaz
-
+*/
 
 let b = 5;
 b = 7;
@@ -69,6 +69,6 @@ const user = {
     password: "123"
 }
 
-user.username ="ayseulker";  // constan sonra yazılan user değiştirilemez, console da hata alınır. {} parantezden sonra yazılan değişekneler console yazılabilir. 
+user.username ="ayseulker";  // constan sonra yazılan user değiştirilemez, console da hata alınır. {} parantezden sonra yazılan değişkeneler console yazılabilir. 
 
 console.log(user);

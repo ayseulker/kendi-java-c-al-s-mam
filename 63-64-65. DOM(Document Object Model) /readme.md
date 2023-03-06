@@ -18,7 +18,7 @@ value = document.location. pathname; // hangi klosörde hangi dosya üzerinde ç
 
 value = document.characterSet; // UTF-8 -türkçe karakterli desteklemesine yardımcı olur.
 
-value = document.title;  //Sİtenin başlığını gösterir.
+value = document.title;  //Sitenin başlığını gösterir.
 
 value = document.links.item; // sayfadaki linkleri getirir bize
 
